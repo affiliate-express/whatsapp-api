@@ -5,7 +5,7 @@ node_modules
 .env
 
 # Ignore sessions
-sessions
+#sessions
 sessions_test
 .wwebjs_cache
 
