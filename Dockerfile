@@ -25,8 +25,5 @@ RUN npm ci --only=production --ignore-scripts
 # Copy the rest of the source code to the working directory
 COPY . .
 
-# Expose the port the API will run on
-EXPOSE 3000
-
 # Start the API
 CMD ["npm", "start"]
